@@ -12,7 +12,7 @@ template = (
 )
 
 # Initialize the OllamaLLM model (Llama3) to interact with it
-model = OllamaLLM(model="llama3")
+model = OllamaLLM(model="llama3.1")
 
 # Define a function to parse the DOM content based on a provided description using the Llama model
 def parse_with_ollama(dom_chunks, parse_description):
